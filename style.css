@@ -4,4 +4,11 @@ body{
 label{
     display: block;
     padding-bottom: 1rem;
+    font-weight: bolder;
+    font-size: large;
+}
+#output-box{
+    font-weight: bolder;
+    font-size:larger
+
 }
