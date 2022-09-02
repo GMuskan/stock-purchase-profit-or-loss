@@ -13,6 +13,8 @@ function submitHandler(){
     
     if(initial==='' || quantity==='' || current===''){
         showOutput(`Please fill out all the fields`);
+    }else if(initial<=0 || quantity<=0 || current<=0){
+        showOutput(`Price or quantity cannot be less than 0`);
     }else{
         initial = Number(initialPrice.value);
         quantity = Number(numberOfStocks.value);
